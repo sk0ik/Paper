@@ -5,6 +5,7 @@ Vectorial adaptive optics -Supplementary information-
 - [研究背景](#研究背景)
 - [研究目的](#研究目的)
 - [原理](#原理)
+- [MirrorやBSなどによる偏光の変化](#mirrorやbsなどによる偏光の変化)
 - [結果](#結果)
 - [結論](#結論)
 
@@ -78,7 +79,20 @@ $$
 
 </br>
 
+## MirrorやBSなどによる偏光の変化
 
+</br>
+
+一般に偏光特性には，表 1 に示すように，光学素子を透過する
+際に生じる位相遅れ（retardation）に関する複屈折および
+旋光性，吸収率性（diattenuation）に関する二色性および
+円二色性，さらに，偏光解消（depolarization）がある．光
+の偏光状態からみると，位相遅れは直線偏光と円偏光で直
+線複屈折（複屈折）と円複屈折（旋光），吸収性は直線複
+吸収（linear diattenuation，二色性）と円複吸収（circular
+diattenuation，円二色性）† に分類するとわかりやすい
+
+分光偏光変調を用いたミュラー行列測定 より
 
 ## 結果
 
