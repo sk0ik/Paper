@@ -133,9 +133,9 @@ J _ {E}=e^{-i\frac{\phi}{2}}
 \end{bmatrix}
 $$
 
-- $\theta:orientation$
-- $\phi:retardance$
-- $\alpha:parameter(determines\;the\;ellipticity\;of\;the\;eigenstate)$
+- $\theta:\text{orientation}$
+- $\phi:\text{retardance}$
+- $\alpha:\text{parameter(determines the ellipticity of the eigenstate)}$
 
 </br>
 
