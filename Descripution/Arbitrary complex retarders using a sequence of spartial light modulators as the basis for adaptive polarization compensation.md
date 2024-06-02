@@ -1,5 +1,5 @@
 <div style="text-align: center; font-size: 25px; font-weight: bold;">
-Arbitrary vectorial state conversion using liquid crystal spatial light modulators
+title
 </div>
 
 </br>
@@ -18,12 +18,9 @@ Arbitrary vectorial state conversion using liquid crystal spatial light modulato
 
 </br>
 
-- 強度,位相,偏光の3つの自由度?
-- SLMが3つあればこれらの自由度を変換できる
-- SLMを4つ使うことで最大の2$\pi$の位相を変換することができる.
-- SLMのホログラムを決めた時のその位相の固有偏光状態
-- 3つのSLMはそれぞれ$S _ 1-S _ 2$とか$S _ 1-S _ 3$平面上で移動させる.(等長写像.)
-- 
+- a
+- b
+- c
 
 </br>
 
