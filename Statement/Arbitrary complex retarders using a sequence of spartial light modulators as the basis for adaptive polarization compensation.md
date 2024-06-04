@@ -174,7 +174,7 @@ $$
 
 </br>
 
-という状況です.先ほどの3つのSLMを組み合わせた系を考えます.
+という状況です.先ほどの3つのSLMを組み合わせた系を考えます.一つにまとめたジョーンズ行列は
 
 </br>
 
@@ -184,8 +184,111 @@ J _ {S}
 &=
 J _ {SLM3}J _ {SLM2}J _ {SLM1} \newline
 &=
-a
+\frac{1}{2}
+\begin{bmatrix}
+(e^{i\psi _ 2}+1)e^{i(\psi _ 1+\psi _ 3)} & (e^{i\psi _ 2}-1)e^{i\psi _ 3} \newline
+(e^{i\psi _ 2-1})e^{i\psi _ 1} & e^{i\psi _ 2}+1
+\end{bmatrix}
 \end{aligned}
+$$
+
+</br>
+
+のようになります.
+
+ここで全体にかかる位相,つまり偏光状態には寄与しないものを $\Theta$ とします.これは
+
+</br>
+
+$$
+\Theta=\frac{1}{2}\text{arg}(\text{det}(J _ s))=\frac{1}{2}(\psi _ 1+\psi _ 2+\psi _ 3)
+$$
+
+</br>
+
+のようにかけます.確かめてみます.
+
+</br>
+
+$$
+\begin{aligned}
+\text{det}(J _ s)
+&=
+(e^{i\psi _ 2}+1)^2e^{i(\psi _ 1+\psi _ 3)}-(e^{i\psi _ 2}-1)^2e^{i(\psi _ 1+\psi _ 3)} \newline
+&=
+4e^{i\psi _ 2}e^{i(\psi _ 1+\psi _ 3)} \newline
+\therefore \text{det}(J _ s)
+&=
+4e^{i(\psi _ 1+\psi _ 2+\psi _ 3)}
+\end{aligned}
+$$
+
+</br>
+
+よって $\text{arg}(\text{det}(J _ s))=\psi _ 1+\psi _ 2+\psi _ 3$ となることが分かります.
+
+</br>
+
+次に $J _ s$ を少し書き直してみます
+
+</br>
+
+$$
+\begin{aligned}
+J _ s
+&=
+\begin{bmatrix}
+(e^{i\frac{\psi _ 2}{2}}+e^{-i\frac{\psi _ 2}{2}})e^{i\frac{(\psi _ 1+\psi _ 3)}{2}} & (e^{i\frac{\psi _ 2}{2}}-e^{-i\frac{\psi _ 2}{2}})e^{-i\frac{(\psi _ 1-\psi _ 3)}{2}} \newline
+(e^{i\frac{\psi _ 2}{2}}-e^{-i\frac{\psi _ 2}{2}})e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & (e^{i\frac{\psi _ 2}{2}}+e^{-i\frac{\psi _ 2}{2}})e^{-i\frac{(\psi _ 1+\psi _ 3)}{2}}
+\end{bmatrix} \newline
+&=
+\begin{bmatrix}
+2\cos{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1+\psi _ 3)}{2}} & 2i\sin{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1-\psi _ 3)}{2}} \newline
+2i\sin{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & 2\cos{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1+\psi _ 3)}{2}}
+\end{bmatrix} \newline
+\therefore J _ s
+&=
+2
+\begin{bmatrix}
+\cos{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1+\psi _ 3)}{2}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1-\psi _ 3)}{2}} \newline
+i\sin{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & \cos{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1+\psi _ 3)}{2}}
+\end{bmatrix} \newline
+&=
+2
+\begin{bmatrix}
+\cos{\frac{\psi _ 2}{2}}e^{i\psi _ {+}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\psi _ {-}} \newline
+i\sin{\frac{\psi _ 2}{2}}e^{i\psi _ {-}} & \cos{\frac{\psi _ 2}{2}}e^{-i\psi _ +}
+\end{bmatrix} \newline
+\end{aligned}
+$$
+
+$$
+\Bigl(
+\psi _ {+}=\frac{(\psi _ 1+\psi _ 3)}{2},\psi _ {-}=\frac{(\psi _ 1-\psi _ 3)}{2}\Bigr)
+$$
+
+</br>
+
+計算すると分かりますが
+
+</br>
+
+$$
+J _ s^{\dagger}J _ s=I
+$$
+
+</br>
+
+となりユニタリー行列であることが分かります.
+
+</br>
+
+この行列 $J _ s$ の固有値 $\mu$ を求めてみます.
+
+</br>
+
+$$
+koyu-ti c    
 $$
 
 <div style="page-break-before: always;"></div>
