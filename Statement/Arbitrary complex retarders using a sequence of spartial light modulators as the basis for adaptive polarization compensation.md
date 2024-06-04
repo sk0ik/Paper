@@ -254,8 +254,8 @@ i\sin{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & \cos{\frac{\psi _ 
 \end{bmatrix} \newline
 &=
 2\begin{bmatrix}
-\cos{\frac{\psi _ 2}{2}}e^{i\psi _ {+}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\psi _ {-}} \newline
-i\sin{\frac{\psi _ 2}{2}}e^{i\psi _ {-}} & \cos{\frac{\psi _ 2}{2}}e^{-i\psi _ {+}}
+\cos{\frac{\psi _ 2}{2}}e^{i\psi _ {a}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\psi _ {b}} \newline
+i\sin{\frac{\psi _ 2}{2}}e^{i\psi _ {b}} & \cos{\frac{\psi _ 2}{2}}e^{-i\psi _ {a}}
 \end{bmatrix}
 \end{aligned}
 $$
