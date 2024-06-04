@@ -238,24 +238,21 @@ $$
 J _ s
 &=
 \begin{bmatrix}
-(e^{i\frac{\psi _ 2}{2}}+e^{-i\frac{\psi _ 2}{2}})e^{i\frac{(\psi _ 1+\psi _ 3)}{2}} & (e^{i\frac{\psi _ 2}{2}}-e^{-i\frac{\psi _ 2}{2}})e^{-i\frac{(\psi _ 1-\psi _ 3)}{2}} \newline
-(e^{i\frac{\psi _ 2}{2}}-e^{-i\frac{\psi _ 2}{2}})e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & (e^{i\frac{\psi _ 2}{2}}+e^{-i\frac{\psi _ 2}{2}})e^{-i\frac{(\psi _ 1+\psi _ 3)}{2}}
-\end{bmatrix} \newline
-&=
-\begin{bmatrix}
 2\cos{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1+\psi _ 3)}{2}} & 2i\sin{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1-\psi _ 3)}{2}} \newline
 2i\sin{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & 2\cos{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1+\psi _ 3)}{2}}
 \end{bmatrix} \newline
-\therefore J _ s
 &=
-2\begin{bmatrix}
+2
+\begin{bmatrix}
 \cos{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1+\psi _ 3)}{2}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1-\psi _ 3)}{2}} \newline
 i\sin{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & \cos{\frac{\psi _ 2}{2}}e^{-i\frac{(\psi _ 1+\psi _ 3)}{2}}
 \end{bmatrix} \newline
+\therefore J _ s
 &=
-2\begin{bmatrix}
-\cos{\frac{\psi _ 2}{2}}e^{i\psi _ {a}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\psi _ {b}} \newline
-i\sin{\frac{\psi _ 2}{2}}e^{i\psi _ {b}} & \cos{\frac{\psi _ 2}{2}}e^{-i\psi _ {a}}
+2
+\begin{bmatrix}
+\cos{\frac{\psi _ 2}{2}}e^{i\psi _ {+}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\psi _ {-}} \newline
+i\sin{\frac{\psi _ 2}{2}}e^{i\psi _ {-}} & \cos{\frac{\psi _ 2}{2}}e^{-i\psi _ {+}}
 \end{bmatrix}
 \end{aligned}
 $$
