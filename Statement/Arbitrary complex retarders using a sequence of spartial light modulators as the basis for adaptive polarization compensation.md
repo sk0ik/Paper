@@ -258,13 +258,12 @@ i\sin{\frac{\psi _ 2}{2}}e^{i\frac{(\psi _ 1-\psi _ 3)}{2}} & \cos{\frac{\psi _ 
 \begin{bmatrix}
 \cos{\frac{\psi _ 2}{2}}e^{i\psi _ {+}} & i\sin{\frac{\psi _ 2}{2}}e^{-i\psi _ {-}} \newline
 i\sin{\frac{\psi _ 2}{2}}e^{i\psi _ {-}} & \cos{\frac{\psi _ 2}{2}}e^{-i\psi _ {+}}
-\end{bmatrix} \newline
+\end{bmatrix}
 \end{aligned}
 $$
 
 $$
-\Bigl(
-\psi _ {+}=\frac{(\psi _ 1+\psi _ 3)}{2},\psi _ {-}=\frac{(\psi _ 1-\psi _ 3)}{2}\Bigr)
+\Bigl(\psi _ {+}=\frac{(\psi _ 1+\psi _ 3)}{2},\psi _ {-}=\frac{(\psi _ 1-\psi _ 3)}{2}\Bigr)
 $$
 
 </br>
